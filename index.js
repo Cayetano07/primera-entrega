@@ -15,9 +15,9 @@
 //     i++; //i++ --> i= i+1
 // }
 //--------------------------------------------------------------------
-// let nombre = prompt("Ingrese nombre o SALIR para terminar")
+let nombre = prompt("Ingrese nombre o SALIR para terminar")
 
-// while( nombre != "SALIR"){
-//     console.log("Usted ingreso" + nombre)
-//     nombre = prompt("Ingrese nombre o SALIR para terminar")
-// }
+while( nombre != "SALIR"){
+    console.log("Usted ingreso" + nombre)
+    nombre = prompt("Ingrese nombre o SALIR para terminar")
+}
